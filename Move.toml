@@ -1,0 +1,19 @@
+[package]
+name = "hello_move"
+edition = "2024.beta"
+
+
+[dependencies]
+Sui = { local = "D:/DevTools/Sui/mysten-labs-main/mysten-labs-main/crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+# 必须为hello分配地址（通常0x0用于开发）
+hello = "0x0"  
+sui = "0x2"
+
+
+[dev-dependencies]
+
+[dev-addresses]
+
+
